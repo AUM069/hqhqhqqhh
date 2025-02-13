@@ -122,8 +122,8 @@ def run_game():
             # Game over screen
             screen.blit(valentine_image, (0, 0))
             draw_text(screen, "Will you be my Valentine jiiii ???/", font, RED, WIDTH // 4, HEIGHT // 2)
-            draw_text(screen, f"Final Score: {score}", font, RED, WIDTH // 4, HEIGHT // 2 + 50)
-            draw_text(screen, f"catch kar liya jii : {hearts_collected}", font, RED, WIDTH // 4, HEIGHT // 2 + 100)
+            draw_text(screen, f" you are stuck with me ", font, RED, WIDTH // 4, HEIGHT // 2 + 50)
+            draw_text(screen, f"ye lo kissi ", font, RED, WIDTH // 4, HEIGHT // 2 + 100)
 
         pygame.display.update()
         clock.tick(30)
